@@ -508,6 +508,3 @@ print(f'The classification report \n {metrics.classification_report(y_test, pred
     
 
 
-```python
-
-```
