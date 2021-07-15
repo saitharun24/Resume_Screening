@@ -172,7 +172,7 @@ df["Category"].value_counts()
 
 
     
-![png](output_8_1.png)
+![output_8_1](https://user-images.githubusercontent.com/50414959/125852724-19aad851-6aec-426b-8b8c-986c9f35a127.png)
     
 
 
@@ -222,7 +222,7 @@ df["Category"].value_counts()*100/df.shape[0]
 
 
     
-![png](output_9_1.png)
+![output_9_1](https://user-images.githubusercontent.com/50414959/125852757-ba422809-b000-4d13-82b4-8b1d62b52dfc.png)
     
 
 
