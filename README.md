@@ -437,7 +437,7 @@ WordFeatures = word_vectorizer.transform(Resume)
 
 
 ```python
-# Splitting the data into train, test, printing the shape of each and running OneVsRestClassifier
+# Splitting the data into train, test, printing the shape of each and running KNeighborsClassifier with OneVsRest method
  
 X_train, X_test, y_train, y_test = train_test_split(WordFeatures, Category, random_state=2, test_size = 0.2)
 print(f'The shape of the training data {X_train.shape}')
